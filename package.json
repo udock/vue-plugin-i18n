@@ -10,7 +10,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "@udock/build-tools rollup"
+    "build": "udock-build-tools rollup"
   },
   "dependencies": {
     "lodash": "^4.17.4"
@@ -19,6 +19,6 @@
     "vue-i18n": "^7.0.5"
   },
   "devDependencies": {
-    "@udock/build-tools": "^0.0.1"
+    "@udock/build-tools": "^0.0.2"
   }
 }
